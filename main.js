@@ -1,3 +1,3 @@
-console.log("hello world.")
-console.log('react',React)
-console.log("react dom", ReactDOM)
+const App = React.createElement('h1', {style:{color: "red"}}, "hello world")
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(App)

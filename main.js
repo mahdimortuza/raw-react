@@ -1,8 +1,8 @@
-import { HelloWorld } from "./another.js"
+import { AnotherHello, HelloWorld } from "./another.js"
 
 const App = () => {
     {
-       return React.createElement('h1', {style:{color: "red"}}, "This is the fokkira element.", HelloWorld())
+       return React.createElement('h1', {style:{color: "red"}}, "This is the fokkira element.", HelloWorld(), AnotherHello())
     }
 } 
 
